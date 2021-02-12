@@ -1,0 +1,32 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET Node_ENV=start& node src/index.js",
+    "dev": "SET Node_ENV=dev& nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^4.5.10",
+    "aws-sdk": "^2.842.0",
+    "bad-words": "^3.0.0",
+    "cors": "^2.8.5",
+    "dateformat": "^4.5.1",
+    "express": "^4.16.4",
+    "express-jwt": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwk-to-pem": "^2.0.4",
+    "mustache": "^4.1.0",
+    "mustache-express": "^1.3.0",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2",
+    "socket.io": "^2.2.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
